@@ -66,10 +66,10 @@
             "employee_first_name" : "Janet",
             "employee_last_name" : "Collins",
             "employee_role" : "Finance/Payroll Manager",
-            "q1_hours" : 0,
-            "q2_hours" : 0,
-            "q3_hours" : 0,
-            "q4_hours" : 0
+            "q1_hours" : 456,
+            "q2_hours" : 483,
+            "q3_hours" : 459,
+            "q4_hours" : 489
         },
 
         {
@@ -77,10 +77,10 @@
             "employee_first_name" : "Roz",
             "employee_last_name" : "Murphy",
             "employee_role" : "Marketing Manager",
-            "q1_hours" : 0,
-            "q2_hours" : 0,
-            "q3_hours" : 0,
-            "q4_hours" : 0
+            "q1_hours" : 476,
+            "q2_hours" : 483,
+            "q3_hours" : 458,
+            "q4_hours" : 461
         },
 
         {
@@ -88,10 +88,10 @@
             "employee_first_name" : "Bob",
             "employee_last_name" : "Ulrich",
             "employee_role" : "Marketing Assistant",
-            "q1_hours" : 0,
-            "q2_hours" : 0,
-            "q3_hours" : 0,
-            "q4_hours" : 0
+            "q1_hours" : 456,
+            "q2_hours" : 463,
+            "q3_hours" : 448,
+            "q4_hours" : 451
         },
 
         {
@@ -99,10 +99,10 @@
             "employee_first_name" : "Henry",
             "employee_last_name" : "Doyle",
             "employee_role" : "Production Line Manager",
-            "q1_hours" : 0,
-            "q2_hours" : 0,
-            "q3_hours" : 0,
-            "q4_hours" : 0
+            "q1_hours" : 469,
+            "q2_hours" : 478,
+            "q3_hours" : 455,
+            "q4_hours" : 463
         },
 
         {
@@ -110,10 +110,10 @@
             "employee_first_name" : "Maria",
             "employee_last_name" : "Costanza",
             "employee_role" : "Distribution Manager",
-            "q1_hours" : 0,
-            "q2_hours" : 0,
-            "q3_hours" : 0,
-            "q4_hours" : 0
+            "q1_hours" : 467,
+            "q2_hours" : 458,
+            "q3_hours" : 470,
+            "q4_hours" : 482
         },
 
         {
@@ -121,10 +121,10 @@
             "employee_first_name" : "Jim",
             "employee_last_name" : "Wino",
             "employee_role" : "Production Line Employee",
-            "q1_hours" : 0,
-            "q2_hours" : 0,
-            "q3_hours" : 0,
-            "q4_hours" : 0
+            "q1_hours" : 453,
+            "q2_hours" : 462,
+            "q3_hours" : 471,
+            "q4_hours" : 451
         }
     ],
 
@@ -228,86 +228,35 @@
         }
     ],
 
-  "distributor": [
-    {
-      "distributor_name": "Wine Harder",
-      "distributor_id": 1
-    },
+    "distributor" : [
+        {
+            "distributor_name" : "Wine Harder",
+            "distributor_id" : 1
+        },
 
-    {
-      "distributor_name": "Wines-R-Us",
-      "distributor_id": 2
-    },
+        {
+            "distributor_name" : "Wines-R-Us",
+            "distributor_id" : 2
+        },
 
-    {
-      "distributor_name": "Winers Warehouse",
-      "distributor_id": 3
-    },
+        {
+            "distributor_name" : "Winers Warehouse",
+            "distributor_id" : 3
+        },
 
-    {
-      "distributor_name": "Langstons Liquors",
-      "distributor_id": 4
-    },
+        {
+            "distributor_name" : "Langstons Liquors",
+            "distributor_id" : 4
+        },
 
-    {
-      "distributor_name": "Booze Warehouse",
-      "distributor_id": 5
-    },
+        {    
+            "distributor_name" : "Booze Warehouse",
+            "distributor_id" : 5
+        },
 
-    {
-      "distributor_name": "Liquor Lovers",
-      "distributor_id": 6
-    }
-  ],
-
-  "hours": [
-    {
-      "employee_id": 1,
-      "q1": 456,
-      "q2": 475,
-      "q3": 459,
-      "q4": 489
-    },
-
-    {
-      "employee_id": 2,
-      "q1": 476,
-      "q2": 483,
-      "q3": 458,
-      "q4": 461
-    },
-
-    {
-      "employee_id": 3,
-      "q1": 456,
-      "q2": 463,
-      "q3": 448,
-      "q4": 451
-    },
-
-    {
-      "employee_id": 4,
-      "q1": 469,
-      "q2": 478,
-      "q3": 455,
-      "q4": 463
-    },
-
-    {
-      "employee_id": 5,
-      "q1": 467,
-      "q2": 458,
-      "q3": 470,
-      "q4": 482
-    },
-
-    {
-      "employee_id": 6,
-      "q1": 453,
-      "q2": 462,
-      "q3": 471,
-      "q4": 450
-    }
-
-  ] 
+        {
+            "distributor_name" : "Liquor Lovers",
+            "distributor_id" : 6
+        }
+    ]
 }
